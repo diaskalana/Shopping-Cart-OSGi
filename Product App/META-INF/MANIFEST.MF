@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Product_App
+Bundle-SymbolicName: Product_App
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.product_app
+Bundle-Activator: com.product_app.ProductSubscriberActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Import-Package: com.product_service,
+ com.shoppingcartapp,
+ org.osgi.framework;version="1.3.0"
+

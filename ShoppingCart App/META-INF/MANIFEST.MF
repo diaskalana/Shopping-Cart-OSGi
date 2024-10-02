@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ShoppingCartApp
+Bundle-SymbolicName: ShoppingCart_App
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.shoppingcartapp
+Bundle-Activator: com.shoppingcartapp.CartSubscriberActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Automatic-Module-Name: ShoppingCartApp
+Import-Package: com.product_service,
+ com.shoppingcartservice,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

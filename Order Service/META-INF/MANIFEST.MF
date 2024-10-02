@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Order_Service
+Bundle-SymbolicName: Order_Service
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.order_service
+Automatic-Module-Name: Order.Service
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: com.order_service.OrderServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Import-Package: org.osgi.framework

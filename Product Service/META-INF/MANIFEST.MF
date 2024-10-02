@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Product_Service
+Bundle-SymbolicName: Product_Service
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.product_service
+Import-Package: org.osgi.framework;version="1.10.0"
+Automatic-Module-Name: Product.Service
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: com.product_service.ProductServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-19

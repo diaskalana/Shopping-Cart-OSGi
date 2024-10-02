@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Order_App
+Bundle-SymbolicName: Order_App
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.order_app
+Bundle-Activator: com.order_app.OrderSubscriberActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Import-Package: com.order_service,
+ org.osgi.framework;version="1.3.0"
+

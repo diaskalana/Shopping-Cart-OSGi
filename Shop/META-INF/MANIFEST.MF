@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Shop
+Bundle-SymbolicName: Shop
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.shop.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Automatic-Module-Name: Shop
+Import-Package: com.customer_app,
+ com.order_app,
+ com.product_app,
+ com.shoppingcartapp,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

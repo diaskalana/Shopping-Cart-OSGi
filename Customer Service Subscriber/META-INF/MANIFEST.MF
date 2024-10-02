@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Customer_Service_Subscriber
+Bundle-SymbolicName: Customer_App
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.customer_app.CustomerSubscriberActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Automatic-Module-Name: Customer.Service.Subscriber
+Import-Package: com.customer_service,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.customer_app
